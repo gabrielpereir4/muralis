@@ -23,7 +23,7 @@ Para utilização do script.sql para população do banco de dados, navegue até
 E então execute:
 
 ```sh
-sqlite3 muralis.db < script.sql
+cmd /c "sqlite3 muralis.db < script.sql"
 ```
 Esse comando executará uma inserção no banco de dados com dados de teste.
 Observação: certifique-se de executar esse comando apenas com o banco de dados vazio, para evitar conflitos com identificadores.
