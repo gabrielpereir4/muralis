@@ -4,7 +4,12 @@ Foram utilizadas as tecnologias de Java com Spring Boot, para o backend, e React
 # Execução do Projeto
 Requisitos: Java 17+, Node.js + NPM
 
-Para executar o projeto:
+# Para executar o projeto:
+    Primeiro, clone o projeto usando:
+```sh
+git clone https://github.com/gabrielpereir4/muralis
+```
+    Em uma IDE de sua preferência.
 ## Backend
     Em dois terminais, na raíz do projeto ("/muralis"), navegue até backend/demo e execute "./mvnw spring-boot:run" para colocar o backend em funcionamento.
 ```sh
@@ -14,12 +19,12 @@ Para executar o projeto:
 ## População do Banco de Dados
 !!! Observação:
 O sistema já cria as tabelas automaticamente com base nas entidades JPA.
-Para utilização do script.sql para população do banco de dados, navegue até:
+Para utilização do script.sql para população do banco de dados, navegue até (Ignore esse passo se já estiver nesse caminho):
 
 ```sh
     cd backend/demo
 ```
-(Ignore esse passo se já estiver nesse caminho)
+
 E então execute:
 
 ```sh
